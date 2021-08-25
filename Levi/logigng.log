@@ -1,0 +1,305 @@
+2021-08-22 18:14:49 INFO  LaunchBrowser:16 - test started
+2021-08-22 18:16:14 INFO  LaunchBrowser:18 - test started
+2021-08-22 18:17:10 INFO  LaunchBrowser:18 - test started
+2021-08-22 18:19:33 INFO  LaunchBrowser:18 - test started
+2021-08-22 18:25:22 INFO  LaunchBrowser:18 - test started
+2021-08-22 18:26:24 INFO  LaunchBrowser:18 - test started
+2021-08-22 18:29:33 INFO  LaunchBrowser:18 - test started
+2021-08-22 18:29:33 ERROR LaunchBrowser:23 - java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.Levi.Utilities.CommonUtilsLevi.properties" is null
+2021-08-22 18:30:24 INFO  LaunchBrowser:17 - test started
+2021-08-22 18:30:24 ERROR LaunchBrowser:22 - java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.Levi.Utilities.CommonUtilsLevi.properties" is null
+2021-08-22 18:31:01 INFO  LaunchBrowser:17 - test started
+2021-08-22 18:32:42 INFO  LaunchBrowser:17 - test started
+2021-08-22 18:40:35 INFO  LaunchBrowser:17 - test started
+2021-08-22 18:43:08 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 18:43:09 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:14:50 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:14:52 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:25:07 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:25:08 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:27:00 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:27:02 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:31:03 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:31:04 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:32:15 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:32:16 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:33:50 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:33:52 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:35:10 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:35:12 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:37:02 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:37:04 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:38:30 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:38:31 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:40:16 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:40:17 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:42:06 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:42:08 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:42:54 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:42:55 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:43:52 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:43:54 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:45:14 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:45:15 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:46:31 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:46:32 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:55:29 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:55:30 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:56:34 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:56:35 INFO  LaunchBrowser:17 - test started
+2021-08-22 19:58:58 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 19:58:59 INFO  LaunchBrowser:17 - test started
+2021-08-22 20:03:31 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 20:03:32 INFO  LaunchBrowser:17 - test started
+2021-08-22 20:06:03 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-22 20:06:04 INFO  LaunchBrowser:17 - test started
+2021-08-24 07:14:27 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 07:14:29 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:01:05 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:01:07 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:02:03 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:02:04 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:06:34 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:06:35 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:06:42 INFO  LocationSelection:18 - inside find location
+2021-08-24 08:06:42 INFO  LocationSelection:22 - inside find locationAfrica & Middle East
+2021-08-24 08:06:42 INFO  LocationSelection:18 - inside find location
+2021-08-24 08:08:00 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:08:02 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:08:07 INFO  LocationSelection:18 - inside find location
+2021-08-24 08:08:07 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 08:08:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:08:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:08:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:08:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:08:07 INFO  LocationSelection:18 - inside find location
+2021-08-24 08:19:38 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:19:40 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:19:44 INFO  LocationSelection:18 - inside find location
+2021-08-24 08:19:44 INFO  LocationSelection:21 - inside find location[[ChromeDriver: chrome on WINDOWS (c0021ccc087bb25533ba2e65275d379f)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:19:44 INFO  LocationSelection:22 - inside find locationAfrica & Middle East
+2021-08-24 08:19:44 INFO  LocationSelection:21 - inside find location[[ChromeDriver: chrome on WINDOWS (c0021ccc087bb25533ba2e65275d379f)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:19:44 INFO  LocationSelection:22 - inside find location
+2021-08-24 08:19:44 INFO  LocationSelection:21 - inside find location[[ChromeDriver: chrome on WINDOWS (c0021ccc087bb25533ba2e65275d379f)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:19:44 INFO  LocationSelection:22 - inside find location
+2021-08-24 08:19:44 INFO  LocationSelection:21 - inside find location[[ChromeDriver: chrome on WINDOWS (c0021ccc087bb25533ba2e65275d379f)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:19:44 INFO  LocationSelection:22 - inside find location
+2021-08-24 08:19:44 INFO  LocationSelection:21 - inside find location[[ChromeDriver: chrome on WINDOWS (c0021ccc087bb25533ba2e65275d379f)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:19:44 INFO  LocationSelection:22 - inside find location
+2021-08-24 08:19:44 INFO  LocationSelection:18 - inside find location
+2021-08-24 08:24:08 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:24:09 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:24:15 INFO  LocationSelection:19 - inside find location
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:19 - inside find location
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:24:15 INFO  LocationSelection:22 - inside find location[[ChromeDriver: chrome on WINDOWS (cb8dc0b3f448cb98f65536dd9d32f40a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:26:59 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:27:01 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:27:05 INFO  LocationSelection:19 - inside find location
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:19 - inside find location
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:27:05 INFO  LocationSelection:23 - inside find location[[ChromeDriver: chrome on WINDOWS (675ba18f9b8166a0f7e2461e6d5a3d2a)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:28:50 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:28:51 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:28:56 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:28:56 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (db92001e62a5a51661853781c0e42c3c)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:28:56 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (db92001e62a5a51661853781c0e42c3c)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:28:56 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (db92001e62a5a51661853781c0e42c3c)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:28:56 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (db92001e62a5a51661853781c0e42c3c)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:28:56 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (db92001e62a5a51661853781c0e42c3c)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:28:56 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:29:42 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:29:43 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:29:45 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:29:46 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (04fc2ee225b299cb29593a81f20e5871)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:29:46 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (04fc2ee225b299cb29593a81f20e5871)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:29:46 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (04fc2ee225b299cb29593a81f20e5871)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:29:46 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (04fc2ee225b299cb29593a81f20e5871)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:29:46 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (04fc2ee225b299cb29593a81f20e5871)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:29:46 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:31:59 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:32:01 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:32:05 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:32:05 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (e9b25427dbd4d4353d1b1071064baa04)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:32:05 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (e9b25427dbd4d4353d1b1071064baa04)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:32:05 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (e9b25427dbd4d4353d1b1071064baa04)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:32:05 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (e9b25427dbd4d4353d1b1071064baa04)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:32:05 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (e9b25427dbd4d4353d1b1071064baa04)] -> xpath: //a[contains(@data-target,'data-drilldown')]]
+2021-08-24 08:32:05 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:32:05 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (e9b25427dbd4d4353d1b1071064baa04)] -> xpath: //div[@class='global-country-list']//div[contains(@style,'block')][2]/div/div/a]
+2021-08-24 08:32:05 INFO  LocationSelection:24 - inside find location[[ChromeDriver: chrome on WINDOWS (e9b25427dbd4d4353d1b1071064baa04)] -> xpath: //div[@class='global-country-list']//div[contains(@style,'block')][2]/div/div/a]
+2021-08-24 08:33:14 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:33:16 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:33:18 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:33:18 INFO  LocationSelection:24 - inside find locationAfrica & Middle East
+2021-08-24 08:33:18 INFO  LocationSelection:24 - inside find location
+2021-08-24 08:33:18 INFO  LocationSelection:24 - inside find location
+2021-08-24 08:33:18 INFO  LocationSelection:24 - inside find location
+2021-08-24 08:33:19 INFO  LocationSelection:24 - inside find location
+2021-08-24 08:33:19 INFO  LocationSelection:20 - inside find location
+2021-08-24 08:33:19 INFO  LocationSelection:24 - inside find locationTurkey
+2021-08-24 08:33:19 INFO  LocationSelection:24 - inside find locationSouth Africa
+2021-08-24 08:35:01 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:35:02 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:35:06 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:35:06 INFO  LocationSelection:25 - inside find locationAfrica & Middle East
+2021-08-24 08:35:06 INFO  LocationSelection:25 - inside find location
+2021-08-24 08:35:06 INFO  LocationSelection:25 - inside find location
+2021-08-24 08:35:06 INFO  LocationSelection:25 - inside find location
+2021-08-24 08:35:06 INFO  LocationSelection:25 - inside find location
+2021-08-24 08:35:06 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:35:06 INFO  LocationSelection:25 - inside find locationTurkey
+2021-08-24 08:35:06 INFO  LocationSelection:25 - inside find locationSouth Africa
+2021-08-24 08:37:30 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 08:37:31 INFO  LaunchBrowser:17 - test started
+2021-08-24 08:37:34 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 08:37:35 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:37:35 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:37:35 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:37:35 INFO  LocationSelection:21 - inside find location
+2021-08-24 08:37:35 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-24 08:37:35 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-24 09:30:59 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 09:31:00 INFO  LaunchBrowser:17 - test started
+2021-08-24 09:31:07 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 09:31:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:31:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:31:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:31:07 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:31:07 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-24 09:31:07 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-24 09:41:55 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 09:41:56 INFO  LaunchBrowser:17 - test started
+2021-08-24 09:42:03 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 09:42:03 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:42:03 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:42:03 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:42:03 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:42:03 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-24 09:42:03 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-24 09:58:03 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 09:58:04 INFO  LaunchBrowser:17 - test started
+2021-08-24 09:58:10 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 09:58:10 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:58:10 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:58:10 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:58:10 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:58:10 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-24 09:58:10 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-24 09:59:31 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 09:59:32 INFO  LaunchBrowser:17 - test started
+2021-08-24 09:59:37 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 09:59:37 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:59:37 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:59:37 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:59:37 INFO  LocationSelection:21 - inside find location
+2021-08-24 09:59:37 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-24 09:59:37 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-24 10:22:06 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 10:22:08 INFO  LaunchBrowser:17 - test started
+2021-08-24 10:22:13 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 10:22:13 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:22:13 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:22:13 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:22:13 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:22:13 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-24 10:22:13 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-24 10:24:08 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-24 10:24:09 INFO  LaunchBrowser:17 - test started
+2021-08-24 10:24:13 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-24 10:24:13 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:24:14 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:24:14 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:24:14 INFO  LocationSelection:21 - inside find location
+2021-08-24 10:24:14 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-24 10:24:14 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-25 07:40:19 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 07:40:22 INFO  LaunchBrowser:17 - test started
+2021-08-25 07:40:26 INFO  LocationSelection:21 - inside find locationAfrica & Middle East
+2021-08-25 07:40:26 INFO  LocationSelection:21 - inside find location
+2021-08-25 07:40:26 INFO  LocationSelection:21 - inside find location
+2021-08-25 07:40:26 INFO  LocationSelection:21 - inside find location
+2021-08-25 07:40:26 INFO  LocationSelection:21 - inside find location
+2021-08-25 07:40:26 INFO  LocationSelection:21 - inside find locationTurkey
+2021-08-25 07:40:26 INFO  LocationSelection:21 - inside find locationSouth Africa
+2021-08-25 07:44:21 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 07:44:23 INFO  LaunchBrowser:17 - test started
+2021-08-25 07:54:34 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 07:54:36 INFO  LaunchBrowser:17 - test started
+2021-08-25 07:55:27 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 07:55:28 INFO  LaunchBrowser:17 - test started
+2021-08-25 08:05:23 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 08:05:25 INFO  LaunchBrowser:17 - test started
+2021-08-25 08:21:13 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 08:21:15 INFO  LaunchBrowser:17 - test started
+2021-08-25 08:25:46 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 08:25:48 INFO  LaunchBrowser:17 - test started
+2021-08-25 08:33:36 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 08:33:38 INFO  LaunchBrowser:17 - test started
+2021-08-25 08:35:11 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 08:35:13 INFO  LaunchBrowser:17 - test started
+2021-08-25 08:40:30 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 09:04:08 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 09:04:13 INFO  LaunchBrowser:17 - test started
+2021-08-25 09:07:30 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 09:07:31 INFO  LaunchBrowser:17 - test started
+2021-08-25 09:08:35 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 09:08:36 INFO  LaunchBrowser:17 - test started
+2021-08-25 09:09:57 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 09:09:58 INFO  LaunchBrowser:17 - test started
+2021-08-25 11:33:25 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 11:33:27 INFO  LaunchBrowser:17 - test started
+2021-08-25 11:45:57 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 11:45:59 INFO  LaunchBrowser:17 - test started
+2021-08-25 11:47:00 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 11:47:02 INFO  LaunchBrowser:17 - test started
+2021-08-25 11:51:03 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 11:51:04 INFO  LaunchBrowser:17 - test started
+2021-08-25 11:57:04 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 11:57:06 INFO  LaunchBrowser:17 - test started
+2021-08-25 11:58:48 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 11:58:50 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:04:08 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:04:10 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:10:29 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:10:30 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:12:06 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:12:07 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:13:47 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:13:49 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:19:51 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:19:53 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:21:49 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:21:50 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:22:28 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:22:29 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:23:43 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:23:45 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:25:10 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:25:11 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:25:53 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:25:54 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:27:10 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:27:12 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:32:15 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:32:17 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:33:10 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:33:12 INFO  LaunchBrowser:17 - test started
+2021-08-25 12:34:35 INFO  CommonUtilsLevi:36 - in launch Browser Common Utilitis
+2021-08-25 12:34:37 INFO  LaunchBrowser:17 - test started

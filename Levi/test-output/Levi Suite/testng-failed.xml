@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Levi Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Launch Browser Test(failed)">
+    <classes>
+      <class name="com.Levi.Test.ZaHomeTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="ZaHomeTestMethod"/>
+        </methods>
+      </class> <!-- com.Levi.Test.ZaHomeTest -->
+    </classes>
+  </test> <!-- Launch Browser Test(failed) -->
+</suite> <!-- Failed suite [Levi Suite] -->

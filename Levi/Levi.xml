@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Levi Suite">
+<test name="Launch Browser Test">
+<classes>
+<class name="com.Levi.Test.LaunchBrowser"></class>
+<class name="com.Levi.Test.LocationSelection"></class>
+<class name="com.Levi.Test.ZaHomeTest"></class>
+</classes>
+</test>
+</suite>
