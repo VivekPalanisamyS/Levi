@@ -1,29 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-25T22:33:37 IST" name="Levi Suite" finished-at="2021-08-25T22:33:51 IST" duration-ms="14043">
+  <suite started-at="2021-08-27T09:57:36 IST" name="Levi Suite" finished-at="2021-08-27T09:57:49 IST" duration-ms="13195">
     <groups>
     </groups>
-    <test started-at="2021-08-25T22:33:37 IST" name="Launch Browser Test" finished-at="2021-08-25T22:33:51 IST" duration-ms="14043">
+    <test started-at="2021-08-27T09:57:36 IST" name="Launch Browser Test" finished-at="2021-08-27T09:57:49 IST" duration-ms="13195">
       <class name="com.Levi.Test.ZaHomeTest">
-        <test-method signature="ZaHomeTestMethod()[pri:0, instance:com.Levi.Test.ZaHomeTest@1ab3a8c8]" started-at="2021-08-25T22:33:48 IST" name="ZaHomeTestMethod" finished-at="2021-08-25T22:33:51 IST" duration-ms="2978" status="PASS">
+        <test-method signature="ZaHomeTestMethod()[pri:0, instance:com.Levi.Test.ZaHomeTest@43195e57]" started-at="2021-08-27T09:57:45 IST" name="ZaHomeTestMethod" finished-at="2021-08-27T09:57:49 IST" duration-ms="3944" status="FAIL">
+          <exception class="java.util.ConcurrentModificationException">
+            <full-stacktrace>
+              <![CDATA[java.util.ConcurrentModificationException
+at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
+at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:780)
+at com.Levi.Test.ZaHomeTest.ZaHomeTestMethod(ZaHomeTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.ConcurrentModificationException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ZaHomeTestMethod -->
       </class> <!-- com.Levi.Test.ZaHomeTest -->
       <class name="com.Levi.Test.LaunchBrowser">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Levi.Test.LaunchBrowser@20ce78ec]" started-at="2021-08-25T22:33:35 IST" name="launchBrowser" finished-at="2021-08-25T22:33:37 IST" duration-ms="2425" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Levi.Test.LaunchBrowser@393671df]" started-at="2021-08-27T09:57:34 IST" name="launchBrowser" finished-at="2021-08-27T09:57:36 IST" duration-ms="1606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="launchBrowserTest()[pri:0, instance:com.Levi.Test.LaunchBrowser@20ce78ec]" started-at="2021-08-25T22:33:37 IST" name="launchBrowserTest" finished-at="2021-08-25T22:33:42 IST" duration-ms="4527" status="PASS">
+        <test-method signature="launchBrowserTest()[pri:0, instance:com.Levi.Test.LaunchBrowser@393671df]" started-at="2021-08-27T09:57:36 IST" name="launchBrowserTest" finished-at="2021-08-27T09:57:39 IST" duration-ms="2935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserTest -->
       </class> <!-- com.Levi.Test.LaunchBrowser -->
       <class name="com.Levi.Test.LocationSelection">
-        <test-method signature="selectLocation()[pri:0, instance:com.Levi.Test.LocationSelection@6973b51b]" started-at="2021-08-25T22:33:42 IST" name="selectLocation" finished-at="2021-08-25T22:33:48 IST" duration-ms="6498" status="PASS">
+        <test-method signature="selectLocation()[pri:0, instance:com.Levi.Test.LocationSelection@1ab3a8c8]" started-at="2021-08-27T09:57:39 IST" name="selectLocation" finished-at="2021-08-27T09:57:45 IST" duration-ms="6274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocation -->

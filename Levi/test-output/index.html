@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Levi_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Levi Suite</span>
+              <span class="suite-name border-failed">Levi Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Levi_Suite" class="hide-methods failed suite-Levi_Suite"> (hide)</a> <!-- hide-methods failed suite-Levi_Suite -->
+                      <a href="#" panel-name="suite-Levi_Suite" class="show-methods failed suite-Levi_Suite"> (show)</a> <!-- show-methods failed suite-Levi_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Levi_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Levi_Suite" title="com.Levi.Test.ZaHomeTest" class="method navigator-link" hash-for-method="ZaHomeTestMethod">ZaHomeTestMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Levi_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-Levi_Suite" class="show-methods passed suite-Levi_Suite"> (show)</a> <!-- show-methods passed suite-Levi_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Levi_Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Levi_Suite" title="com.Levi.Test.ZaHomeTest" class="method navigator-link" hash-for-method="ZaHomeTestMethod">ZaHomeTestMethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Levi_Suite" title="com.Levi.Test.LaunchBrowser" class="method navigator-link" hash-for-method="launchBrowserTest">launchBrowserTest</a> <!-- method navigator-link -->
@@ -129,6 +138,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Levi_Suite" class="panel Levi_Suite">
+          <div class="suite-Levi_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Levi.Test.ZaHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ZaHomeTestMethod">
+                  </a> <!-- ZaHomeTestMethod -->
+                  <span class="method-name">ZaHomeTestMethod</span>
+                  <div class="stack-trace">java.util.ConcurrentModificationException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:780)
+	at com.Levi.Test.ZaHomeTest.ZaHomeTestMethod(ZaHomeTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Levi_Suite-class-failed -->
           <div class="suite-Levi_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -155,21 +186,6 @@
                   <a name="selectLocation">
                   </a> <!-- selectLocation -->
                   <span class="method-name">selectLocation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Levi_Suite-class-passed -->
-          <div class="suite-Levi_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.Levi.Test.ZaHomeTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ZaHomeTestMethod">
-                  </a> <!-- ZaHomeTestMethod -->
-                  <span class="method-name">ZaHomeTestMethod</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,20 +248,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'selectLocation')
 data.setCell(0, 2, 'com.Levi.Test.LocationSelection')
-data.setCell(0, 3, 6498);
+data.setCell(0, 3, 6274);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'launchBrowserTest')
-data.setCell(1, 2, 'com.Levi.Test.LaunchBrowser')
-data.setCell(1, 3, 4527);
+data.setCell(1, 1, 'ZaHomeTestMethod')
+data.setCell(1, 2, 'com.Levi.Test.ZaHomeTest')
+data.setCell(1, 3, 3944);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ZaHomeTestMethod')
-data.setCell(2, 2, 'com.Levi.Test.ZaHomeTest')
-data.setCell(2, 3, 2978);
+data.setCell(2, 1, 'launchBrowserTest')
+data.setCell(2, 2, 'com.Levi.Test.LaunchBrowser')
+data.setCell(2, 3, 2935);
 window.suiteTableData['Levi_Suite']= { tableData: data, tableDiv: 'times-div-Levi_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Levi_Suite">
               </div> <!-- times-div-Levi_Suite -->
             </div> <!-- times-div -->
@@ -292,21 +308,23 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">launchBrowserTest</span>
-                <span class="method-start">2456 ms</span>
+                <span class="method-start">1640 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Levi.Test.LocationSelection</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">selectLocation</span>
-                <span class="method-start">6987 ms</span>
+                <span class="method-start">4581 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Levi.Test.ZaHomeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">ZaHomeTestMethod</span>
-                <span class="method-start">13488 ms</span>
+                <span class="method-start">10857 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
