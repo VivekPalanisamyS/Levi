@@ -28,24 +28,34 @@ public class ZaHomeTest extends CommonUtilsLevi {
 
 	Logger logger = Logger.getLogger(ZaHomeTest.class);
 	Map<String, WebElement> links = new LinkedHashMap<String, WebElement>();
-	
-	public void findLinks(List<WebElement> link) {
+
+	public void findLinks(List<WebElement> link, String expected, String actionToBe) {
 		for (WebElement li : link) {
-			if(li.getText()!=null)
-			links.put(li.getText(), li);
+			System.out.println(li.getText());
+			if (li.getText().equalsIgnoreCase(expected)) {
+				System.out.println(li.getText());
+				if (actionToBe.equalsIgnoreCase("mouseOver")) {
+					mouseOver(li.getText());
+					System.out.println(li.getText() + "mouse");
+					break;
+				} else if (actionToBe.equalsIgnoreCase("click")) {
+					clickE(li.getText());
+					System.out.println(li.getText() + "click");
+					break;
+				}
+			}
 		}
-		System.out.println(links.keySet());
+
 	}
 
 	private void mouseOver(String title) {
-		Actions action=new Actions(driver);
+		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.linkText(title))).perform();
-		WebDriverWait wait2 = new WebDriverWait(driver, 10);
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
-				"//div[@id='fb-root']/following-sibling::header//li[contains(@class,'dropdown dropdown__full navbar-sub')]//a[contains(@class,'item-title')]")));
-		findLinks(ZaHomePOM.itemTitle);
 	}
 
+	public void clickE(String title) {
+		driver.findElement(By.linkText(title)).click();
+	}
 
 	@Test
 	public void ZaHomeTestMethod() {
@@ -55,10 +65,12 @@ public class ZaHomeTest extends CommonUtilsLevi {
 		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
 				"//div[@id='fb-root']/following-sibling::header//div[@id='roadblock-container']//button[contains(@class,'close')]")));
 		ZaHomePOM.popupClose.click();
-		// JavascriptExecutor j = (JavascriptExecutor)driver;j.executeScript("arguments[0].click()",ZaHomePOM.frameClose);
-		findLinks(ZaHomePOM.mainLink);
-		for(String title : links.keySet())
-		mouseOver(title);
-		System.out.println(links.keySet());
+		// JavascriptExecutor j =
+		// (JavascriptExecutor)driver;j.executeScript("arguments[0].click()",ZaHomePOM.frameClose);
+		findLinks(ZaHomePOM.mainLink, "kids", "mouseOver");
+		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
+				"//div[@id='fb-root']/following-sibling::header//li//a[text()='Kids']/ancestor::li//a[@class='item-title']")));
+		findLinks(ZaHomePOM.subKids, "Boys", "click");
+		System.out.println("end");
 	}
 }

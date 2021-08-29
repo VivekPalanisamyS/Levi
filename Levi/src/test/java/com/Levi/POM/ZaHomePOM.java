@@ -15,7 +15,12 @@ public class ZaHomePOM {
 	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//li[contains(@class,'dropdown dropdown__full navbar-sub')]//a[@class='navbar-link']")
 	public static List<WebElement> mainLink;
 	
-	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//li[contains(@class,'dropdown dropdown__full navbar-sub')]//a[contains(@class,'item-title')]")
-	public static List<WebElement> itemTitle;
-
+	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//a[text()='Men']/ancestor::li[contains(@class,'dropdown dropdown__full navbar-sub')]/ul/descendant::a[@class='item-title']")
+	public static List<WebElement> menItemTitle;
+	
+	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//li//a[text()='Kids']")
+	public static WebElement kids;
+	
+	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//li//a[text()='Kids']/ancestor::li//a[@class='item-title']")
+	public static List<WebElement> subKids;
 }

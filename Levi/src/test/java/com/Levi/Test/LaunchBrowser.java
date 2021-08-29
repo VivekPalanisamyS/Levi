@@ -17,5 +17,6 @@ public class LaunchBrowser extends CommonUtilsLevi{
 		logger.info("test started");
 			CommonUtilsLevi.driver.get(CommonUtilsLevi.properties.getProperty("url"));
 			Assert.assertEquals(CommonUtilsLevi.driver.getCurrentUrl(), "https://www.levi.com/global");
+			driver.manage().window().maximize();
 	}
 }
