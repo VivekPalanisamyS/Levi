@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Levi.Test.LocationSelection">
+      <class name="com.Levi.Test.ZaHomeTest">
         <methods>
-          <include name="selectLocation"/>
+          <include name="launchBrowser"/>
+          <include name="ZaHomeTestMethod"/>
         </methods>
-      </class> <!-- com.Levi.Test.LocationSelection -->
+      </class> <!-- com.Levi.Test.ZaHomeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -23,4 +23,7 @@ public class ZaHomePOM {
 	
 	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//li//a[text()='Kids']/ancestor::li//a[@class='item-title']")
 	public static List<WebElement> subKids;
+	
+	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//li//a[text()='Kids']/ancestor::li[1]/descendant::a[2]")
+	public static WebElement boysVisibility;
 }

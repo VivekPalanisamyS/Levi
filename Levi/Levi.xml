@@ -6,6 +6,7 @@
 <class name="com.Levi.Test.LaunchBrowser"></class>
 <class name="com.Levi.Test.LocationSelection"></class>
 <class name="com.Levi.Test.ZaHomeTest"></class>
+<class name="com.Levi.Test.KidsTest"></class>
 </classes>
 </test>
 </suite>

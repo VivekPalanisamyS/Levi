@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Levi_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Levi_Suite" title="com.Levi.Test.ZaHomeTest" class="method navigator-link" hash-for-method="ZaHomeTestMethod">ZaHomeTestMethod</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Levi_Suite" title="com.Levi.Test.KidsTest" class="method navigator-link" hash-for-method="KidsTestMethod">KidsTestMethod</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Levi_Suite -->
@@ -116,6 +116,11 @@
                       <a href="#" panel-name="suite-Levi_Suite" class="show-methods passed suite-Levi_Suite"> (show)</a> <!-- show-methods passed suite-Levi_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Levi_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Levi_Suite" title="com.Levi.Test.ZaHomeTest" class="method navigator-link" hash-for-method="ZaHomeTestMethod">ZaHomeTestMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Levi_Suite" title="com.Levi.Test.LaunchBrowser" class="method navigator-link" hash-for-method="launchBrowserTest">launchBrowserTest</a> <!-- method navigator-link -->
@@ -141,20 +146,41 @@
           <div class="suite-Levi_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.Levi.Test.ZaHomeTest</span>
+              <span class="class-name">com.Levi.Test.KidsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ZaHomeTestMethod">
-                  </a> <!-- ZaHomeTestMethod -->
-                  <span class="method-name">ZaHomeTestMethod</span>
-                  <div class="stack-trace">java.util.ConcurrentModificationException
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
-	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:780)
-	at com.Levi.Test.ZaHomeTest.ZaHomeTestMethod(ZaHomeTest.java:60)
+                  <a name="KidsTestMethod">
+                  </a> <!-- KidsTestMethod -->
+                  <span class="method-name">KidsTestMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@data-target=&apos;#facet_price&apos;]&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-UVQNT7S&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 65aaaf3dd464f0bd3bb8662a16ae443b
+*** Element info: {Using=xpath, value=//a[@data-target=&apos;#facet_price&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getAttribute(Unknown Source)
+	at com.Levi.Test.KidsTest.price(KidsTest.java:74)
+	at com.Levi.Test.KidsTest.findCategory(KidsTest.java:32)
+	at com.Levi.Test.KidsTest.KidsTestMethod(KidsTest.java:87)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -190,6 +216,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Levi_Suite-class-passed -->
+          <div class="suite-Levi_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Levi.Test.ZaHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ZaHomeTestMethod">
+                  </a> <!-- ZaHomeTestMethod -->
+                  <span class="method-name">ZaHomeTestMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Levi_Suite-class-passed -->
         </div> <!-- panel Levi_Suite -->
         <div panel-name="test-xml-Levi_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -205,6 +246,7 @@
       &lt;class name=&quot;com.Levi.Test.LaunchBrowser&quot;/&gt;
       &lt;class name=&quot;com.Levi.Test.LocationSelection&quot;/&gt;
       &lt;class name=&quot;com.Levi.Test.ZaHomeTest&quot;/&gt;
+      &lt;class name=&quot;com.Levi.Test.KidsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Launch Browser Test --&gt;
 &lt;/suite&gt; &lt;!-- Levi Suite --&gt;
@@ -218,7 +260,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Launch Browser Test (3 classes)</span>
+                <span class="test-name">Launch Browser Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,24 +286,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectLocation')
-data.setCell(0, 2, 'com.Levi.Test.LocationSelection')
-data.setCell(0, 3, 6274);
+data.setCell(0, 1, 'KidsTestMethod')
+data.setCell(0, 2, 'com.Levi.Test.KidsTest')
+data.setCell(0, 3, 16734);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ZaHomeTestMethod')
-data.setCell(1, 2, 'com.Levi.Test.ZaHomeTest')
-data.setCell(1, 3, 3944);
+data.setCell(1, 1, 'selectLocation')
+data.setCell(1, 2, 'com.Levi.Test.LocationSelection')
+data.setCell(1, 3, 8864);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'launchBrowserTest')
-data.setCell(2, 2, 'com.Levi.Test.LaunchBrowser')
-data.setCell(2, 3, 2935);
+data.setCell(2, 1, 'ZaHomeTestMethod')
+data.setCell(2, 2, 'com.Levi.Test.ZaHomeTest')
+data.setCell(2, 3, 6282);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchBrowserTest')
+data.setCell(3, 2, 'com.Levi.Test.LaunchBrowser')
+data.setCell(3, 3, 2265);
 window.suiteTableData['Levi_Suite']= { tableData: data, tableDiv: 'times-div-Levi_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-Levi_Suite">
               </div> <!-- times-div-Levi_Suite -->
             </div> <!-- times-div -->
@@ -276,9 +322,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Levi_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Levi.Test.KidsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.Levi.Test.LocationSelection</span>
               <div class="ignored-methods-div">
@@ -308,23 +361,30 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">launchBrowserTest</span>
-                <span class="method-start">1640 ms</span>
+                <span class="method-start">1581 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Levi.Test.LocationSelection</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">selectLocation</span>
-                <span class="method-start">4581 ms</span>
+                <span class="method-start">3851 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Levi.Test.ZaHomeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">ZaHomeTestMethod</span>
+                <span class="method-start">12717 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Levi.Test.KidsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">ZaHomeTestMethod</span>
-                <span class="method-start">10857 ms</span>
+                <span class="method-name">KidsTestMethod</span>
+                <span class="method-start">19001 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -31,16 +31,12 @@ public class ZaHomeTest extends CommonUtilsLevi {
 
 	public void findLinks(List<WebElement> link, String expected, String actionToBe) {
 		for (WebElement li : link) {
-			System.out.println(li.getText());
 			if (li.getText().equalsIgnoreCase(expected)) {
-				System.out.println(li.getText());
 				if (actionToBe.equalsIgnoreCase("mouseOver")) {
-					mouseOver(li.getText());
-					System.out.println(li.getText() + "mouse");
+					mouseOver(li);
 					break;
 				} else if (actionToBe.equalsIgnoreCase("click")) {
-					clickE(li.getText());
-					System.out.println(li.getText() + "click");
+					clickE(li);
 					break;
 				}
 			}
@@ -48,13 +44,13 @@ public class ZaHomeTest extends CommonUtilsLevi {
 
 	}
 
-	private void mouseOver(String title) {
+	private void mouseOver(WebElement title) {
 		Actions action = new Actions(driver);
-		action.moveToElement(driver.findElement(By.linkText(title))).perform();
+		action.moveToElement(title).perform();
 	}
 
-	public void clickE(String title) {
-		driver.findElement(By.linkText(title)).click();
+	public void clickE(WebElement title) {
+		title.click();
 	}
 
 	@Test
@@ -62,15 +58,13 @@ public class ZaHomeTest extends CommonUtilsLevi {
 		PageFactory.initElements(CommonUtilsLevi.driver, ZaHomePOM.class);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebDriverWait wait2 = new WebDriverWait(driver, 10);
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
-				"//div[@id='fb-root']/following-sibling::header//div[@id='roadblock-container']//button[contains(@class,'close')]")));
+		wait2.until(ExpectedConditions.visibilityOf(ZaHomePOM.popupClose));
 		ZaHomePOM.popupClose.click();
 		// JavascriptExecutor j =
 		// (JavascriptExecutor)driver;j.executeScript("arguments[0].click()",ZaHomePOM.frameClose);
 		findLinks(ZaHomePOM.mainLink, "kids", "mouseOver");
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
-				"//div[@id='fb-root']/following-sibling::header//li//a[text()='Kids']/ancestor::li//a[@class='item-title']")));
+		wait2.until(ExpectedConditions.visibilityOf(ZaHomePOM.boysVisibility));
 		findLinks(ZaHomePOM.subKids, "Boys", "click");
-		System.out.println("end");
+		System.out.println("za home test end");
 	}
 }
