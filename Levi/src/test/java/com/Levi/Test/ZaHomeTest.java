@@ -29,7 +29,7 @@ public class ZaHomeTest extends CommonUtilsLevi {
 	Logger logger = Logger.getLogger(ZaHomeTest.class);
 	Map<String, WebElement> links = new LinkedHashMap<String, WebElement>();
 
-	public void findLinks(List<WebElement> link, String expected, String actionToBe) {
+	public static void findLinks(List<WebElement> link, String expected, String actionToBe) {
 		for (WebElement li : link) {
 			if (li.getText().equalsIgnoreCase(expected)) {
 				if (actionToBe.equalsIgnoreCase("mouseOver")) {
@@ -44,22 +44,22 @@ public class ZaHomeTest extends CommonUtilsLevi {
 
 	}
 
-	private void mouseOver(WebElement title) {
+	private static void mouseOver(WebElement title) {
 		Actions action = new Actions(driver);
 		action.moveToElement(title).perform();
 	}
 
-	public void clickE(WebElement title) {
+	public static void clickE(WebElement title) {
 		title.click();
 	}
 
 	@Test
-	public void ZaHomeTestMethod() {
+	public static void ZaHomeTestMethod() {
 		PageFactory.initElements(CommonUtilsLevi.driver, ZaHomePOM.class);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		WebDriverWait wait2 = new WebDriverWait(driver, 10);
-		wait2.until(ExpectedConditions.visibilityOf(ZaHomePOM.popupClose));
-		ZaHomePOM.popupClose.click();
+		 WebDriverWait wait2 = new WebDriverWait(driver, 10);
+		/* wait2.until(ExpectedConditions.visibilityOf(ZaHomePOM.popupClose));
+		 * ZaHomePOM.popupClose.click();
+		 */
 		// JavascriptExecutor j =
 		// (JavascriptExecutor)driver;j.executeScript("arguments[0].click()",ZaHomePOM.frameClose);
 		findLinks(ZaHomePOM.mainLink, "kids", "mouseOver");

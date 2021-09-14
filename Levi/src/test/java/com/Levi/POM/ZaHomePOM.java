@@ -26,4 +26,6 @@ public class ZaHomePOM {
 	
 	@FindBy(xpath="//div[@id='fb-root']/following-sibling::header//li//a[text()='Kids']/ancestor::li[1]/descendant::a[2]")
 	public static WebElement boysVisibility;
+	//I have 4yrs of experience, learned automation testing, got job in MNC, and now i think they going to assign me to a manual testing project where no technology is there.
+	//how to ask the supervisor to assign me to automation testing? how much possibility is there?
 }

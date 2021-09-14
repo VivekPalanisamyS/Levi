@@ -25,7 +25,7 @@ public class LocationSelection extends CommonUtilsLevi {
 	}
 
 	@Test
-	public void selectLocation() {
+	public static void selectLocation() {
 		PageFactory.initElements(CommonUtilsLevi.driver, GlobalPOM.class);
 		findLocationPath(GlobalPOM.role, properties.getProperty("location"));
 		findLocationPath(GlobalPOM.subLocation, properties.getProperty("subLocation"));

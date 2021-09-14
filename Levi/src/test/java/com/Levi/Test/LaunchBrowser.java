@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 import com.Levi.Utilities.CommonUtilsLevi;
 
 public class LaunchBrowser extends CommonUtilsLevi{
-	Logger logger = Logger.getLogger(LaunchBrowser.class);
+	static Logger logger = Logger.getLogger(LaunchBrowser.class);
 
 	@Test
-	public void launchBrowserTest() {
+	public static void launchBrowserTest() {
 		PropertyConfigurator.configure("log4jLevi.properties");
 		logger.info("test started");
 			CommonUtilsLevi.driver.get(CommonUtilsLevi.properties.getProperty("url"));

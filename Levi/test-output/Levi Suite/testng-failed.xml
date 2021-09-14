@@ -3,12 +3,12 @@
 <suite name="Failed suite [Levi Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Launch Browser Test(failed)">
     <classes>
-      <class name="com.Levi.Test.ZaHomeTest">
+      <class name="com.Levi.Test.KidsTest">
         <methods>
+          <include name="KidsTestMethod"/>
           <include name="launchBrowser"/>
-          <include name="ZaHomeTestMethod"/>
         </methods>
-      </class> <!-- com.Levi.Test.ZaHomeTest -->
+      </class> <!-- com.Levi.Test.KidsTest -->
     </classes>
   </test> <!-- Launch Browser Test(failed) -->
 </suite> <!-- Failed suite [Levi Suite] -->
